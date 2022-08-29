@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+greenlet == 1.1.2
+sqlalchemy
+asyncpg
+alembic
+loguru

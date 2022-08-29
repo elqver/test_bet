@@ -1,0 +1,18 @@
+#!/bin/sh
+
+export BET_MAKER_DB=simple_bet
+export BET_MAKER_POSTGRES_USER=postgresql
+export BET_MAKER_POSTGRES_PASSWORD=postgresql
+export SALT_BET_MAKER=the_very_secret_salt
+
+
+export LINE_PROVIDER_DB=simple_bet
+export LINE_PROVIDER_POSTGRES_USER=postgresql
+export LINE_PROVIDER_POSTGRES_PASSWORD=postgresql
+export SALT_LINE_PROVIDER=the_very_secret_salt
+
+
+export POSTGRES_DB=simple_bet
+export POSTGRES_USER=postgresql
+export POSTGRES_PASSWORD=postgresql
+export SALT_LINE_PROVIDER=the_very_secret_salt
